@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Skip</string>
+    <string name="qs_tile_label">Flashlight</string>
+    <string name="qs_tile_subtitle_off">Off</string>
+    <string name="qs_tile_subtitle_on">On</string>
+    <string name="qs_title_subtitle_unavailable">Unavailable</string>
+    <string name="bottom_sheet_flashlight_flashlight_switch_label">Flashlight</string>
+    <string name="bottom_sheet_flashlight_brightness_layout_label">Brightness</string>
+    <string name="error_bottom_sheet_not_supported_title">Not Supported</string>
+    <string name="error_bottom_sheet_not_supported_text">Your device does not support setting the brightness of the flashlight. Please use your system\'s torch tile to toggle your device\'s flashlight.</string>
+    <string name="error_bottom_sheet_close">Close</string>
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:background="?attr/colorSurface"
+    app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:paddingBottom="8dp"
+        android:layout_marginTop="24dp">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/error_icon"
+            android:src="@drawable/ic_error"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:importantForAccessibility="no" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/error_icon"
+            android:layout_marginTop="8dp"
+            android:textSize="24sp"
+            android:textColor="?android:attr/textColorPrimary"
+            android:id="@+id/error_bottom_sheet_title"
+            android:textStyle="bold"
+            android:text="@string/error_bottom_sheet_not_supported_title" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/error_bottom_sheet_title"
+            android:id="@+id/error_bottom_sheet_text"
+            android:textAlignment="center"
+            android:paddingHorizontal="48dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/error_bottom_sheet_not_supported_text" />
+
+        <Button
+            android:layout_width="match_parent"
+            style="@style/Widget.Material3.Button"
+            android:layout_height="match_parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/error_bottom_sheet_text"
+            android:layout_marginHorizontal="20dp"
+            android:id="@+id/error_close_button"
+            android:text="@string/error_bottom_sheet_close"
+            android:layout_marginTop="32dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

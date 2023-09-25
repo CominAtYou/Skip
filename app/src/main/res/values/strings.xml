@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Skip</string>
+    <string name="qs_tile_label">Torch</string>
+    <string name="qs_tile_subtitle_off">Off</string>
+    <string name="qs_tile_subtitle_on">On</string>
+    <string name="qs_title_subtitle_unavailable">Unavailable</string>
+    <string name="bottom_sheet_flashlight_flashlight_switch_label">Torch</string>
+    <string name="bottom_sheet_flashlight_brightness_layout_label">Brightness</string>
+    <string name="error_bottom_sheet_not_supported_title">Not Supported</string>
+    <string name="error_bottom_sheet_not_supported_text">Your device does not support setting the brightness of the torch. Please use your system\'s torch tile to toggle your device\'s torch.</string>
+    <string name="error_bottom_sheet_close">Close</string>
+</resources>
